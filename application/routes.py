@@ -23,3 +23,7 @@ prayerTime = [
 def home():
     #postData = Posts.query.all()
     return render_template('home.html', title='home', prayers=prayerTime)
+@app.route('/about')
+def about():
+    #postData = Posts.query.all()
+    return render_template('about.html', title='about')
