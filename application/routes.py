@@ -10,11 +10,11 @@ from application import app
 
 prayerTime = [
     {  
-        "prayer": {"prayer_type":"zoher", "city":"manchester"}
+        "prayer": {"prayer_type":"zoher", "city":"manchester"},
         "content":"time 13:30"
     },
     {   
-        "prayer": {"prayer_type":"aser", "city":"manchester"}
+        "prayer": {"prayer_type":"aser", "city":"manchester"},
         "content":"time 15:30"
     }
 ]
