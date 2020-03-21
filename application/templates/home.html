@@ -7,4 +7,15 @@
     
 <body> welcom to home</body>
     
+{% for post in prayers %}
+        <div>
+            <h3>{{ post.prayer }}</h3>
+            <p><b> - prayer type:</b>{{ post.prayer.prayer_type }}</p>
+            <p><b> - city:</b>{{ post.prayer.city }}</p>
+            <p> -- {{ post.content }}</p>
+        </div>
+    {% endfor %}
+
+
+
 {% endblock body_content %}

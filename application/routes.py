@@ -8,8 +8,20 @@ from application import app
 #from flask_login import login_required, current_user, login_user, logout_user
 
 
+prayerTime = [
+    {  
+        "prayer": {"prayer_type":"zoher", "city":"manchester"},
+        "prayer":"zoher",
+        "content":"time 13:30"
+    },
+    {   
+        "prayer": {"prayer_type":"aser", "city":"manchester},
+        "prayer":"aser",
+        "content":"time 15:30"
+    }
+]
 @app.route('/')
 @app.route('/home')
 def home():
     #postData = Posts.query.all()
-    return render_template('home.html', title='home')
+    return render_template('home.html', title='home', prayers=prayerTime)
