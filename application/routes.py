@@ -15,7 +15,7 @@ prayerTime = [
         "content":"time 13:30"
     },
     {   
-        "prayer": {"prayer_type":"aser", "city":"manchester},
+        "prayer": {"prayer_type":"aser", "city":"manchester"},
         "prayer":"aser",
         "content":"time 15:30"
     }
