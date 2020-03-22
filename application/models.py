@@ -1,5 +1,5 @@
 from application import db
-class Posts(db.Model):
+class Prayers(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     prayer_type = db.Column(db.String(30), nullable=False)
     city = db.Column(db.String(30), nullable=False)

@@ -1,6 +1,7 @@
 # import Flask class from the flask module
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
+import os
 #from os import getenv
 #from flask_bcrypt import Bcrypt
 #from flask_login import LoginManager
