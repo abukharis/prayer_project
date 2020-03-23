@@ -9,7 +9,7 @@ The plan of the project was carreid on using agil-based methodlogies and project
 
 Google cloud plateform databese is used to ceate the tables and linked to the Application through ots public IP and the ERD is shown below.
 
-
+![ERD](https://user-images.githubusercontent.com/61311253/77344412-069a0580-6d2b-11ea-8767-973a28c54a39.png)
 
 
 
