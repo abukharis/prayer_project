@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block body_content %}
+    <div class='form'>
+        <form method='POST' action=''>
+            {{ form.hidden_tag() }}
+           
+        {{ form.title.label }}
+
+        {{ form.calling }}
+
+        {% if form.title.errors %}
+
+            <div class="error">
+        
+                  {% for error in form.title.errors %}
+                      <!-- display the error -->
+                      <span>{{ error }}</span>
+                  <!-- end the for-loop -->
+                  {% endfor %}
+              </div>
+          <!-- end the if statement -->
+          {% endif %}
+ 
+ {{ form.content.label }}
+
+ {{ form.praying }}
+ 
+ {% if form.content.errors %}
+    
+     <div class="error">
+    
+         {% for error in form.content.errors %}
+             <!-- display the error -->
+             <span>{{ error }}</span>
+
+         {% endfor %}
+     </div>
+ {% endif %}
+{{ form.submit }}
+    </form>
+</div>
+{% endblock %}
