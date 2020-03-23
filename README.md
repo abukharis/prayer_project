@@ -19,6 +19,7 @@ Google cloud plateform databese is used to ceate the tables and linked to the Ap
 
 
 Example of the database tebles is shown below:
+![dtabse_tables](https://user-images.githubusercontent.com/61311253/77346789-b624a700-6d2e-11ea-93b1-8b4e062c8e9f.png)
 
 
 
