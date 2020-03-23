@@ -4,7 +4,7 @@
         <form method='POST' action=''>
             {{ form.hidden_tag() }}
            
-        {{ form.title.label }}
+        {{ form.calling.label }}
 
         {{ form.calling }}
 
@@ -21,11 +21,11 @@
           <!-- end the if statement -->
           {% endif %}
  
- {{ form.content.label }}
+ {{ form.praying.label }}
 
  {{ form.praying }}
  
- {% if form.content.errors %}
+ {% if form.praying.errors %}
     
      <div class="error">
     
