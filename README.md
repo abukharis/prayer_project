@@ -24,3 +24,8 @@ Example of the database tebles is shown below:
 
 
 ## Risk assessment 
+There are sevral rsikes could happen to the application. These riskes could be related to the application itself our not providing the correct infrmation. Some of the riskes are summerised in the Table below 
+![risk_assessment](https://user-images.githubusercontent.com/61311253/77358943-bcbd1980-6d42-11ea-979c-b4ac99266355.png)
+
+
+
