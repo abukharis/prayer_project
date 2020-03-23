@@ -14,3 +14,5 @@ Google cloud plateform databese is used to ceate the tables and linked to the Ap
 
 
 example of the database tebles is shown below:
+
+## Risk assessment 
