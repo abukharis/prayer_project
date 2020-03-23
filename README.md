@@ -5,6 +5,11 @@ In this project an application using Flask (Flask is a Python driven micro-frame
 The aim of the project to build an application, which help the user to know the calling time for the prayer and praying time by entring the prayer name, the country, city and the date. The aplication will be built to have CURD functionality.
 ## Planning the Project
 The plan of the project was carreid on using agil-based methodlogies and project was diveded into tasks using Trello board as shown below.
+![trello](https://user-images.githubusercontent.com/61311253/77350361-4f09f100-6d34-11ea-9162-6575abbba1da.png)
+
+
+
+
 ## DataBase Desgin
 
 Google cloud plateform databese is used to ceate the tables and linked to the Application through ots public IP and the ERD is shown below.
