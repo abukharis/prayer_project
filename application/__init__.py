@@ -1,6 +1,6 @@
 # import Flask class from the flask module
-from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
+from Flask import Flask
+from Flask_SQLAlchemy import SQLAlchemy
 
 from os import getenv
 #from flask_bcrypt import Bcrypt
