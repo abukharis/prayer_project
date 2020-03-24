@@ -9,10 +9,10 @@ from os import getenv
 # create a new instance of Flask and store it in app 
 app = Flask(__name__)
 #bcrypt = Bcrypt(app)
-DATABASE_URI="mysql+pymysql://root:salimd@35.242.160.164/prayer"
 app.config['SQLALCHEMY_DATABASE_URI'] = getenv('DATABASE_URI')
 
-#app.config['SECRET_KEY'] = getenv('MY_SECRET_KEY')
+
+app.config['SECRET_KEY'] = getenv('MY_SECRET_KEY')
 
 # import the ./application/routes.py file
 db=SQLAlchemy(app)
