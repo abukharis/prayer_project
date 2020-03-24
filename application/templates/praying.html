@@ -8,11 +8,11 @@
 
         {{ form.calling }}
 
-        {% if form.title.errors %}
+        {% if form.calling.errors %}
 
             <div class="error">
         
-                  {% for error in form.title.errors %}
+                  {% for error in form.calling.errors %}
                       <!-- display the error -->
                       <span>{{ error }}</span>
                   <!-- end the for-loop -->
@@ -29,7 +29,7 @@
     
      <div class="error">
     
-         {% for error in form.content.errors %}
+         {% for error in form.praying.errors %}
              <!-- display the error -->
              <span>{{ error }}</span>
 
