@@ -16,7 +16,5 @@ app.config['SECRET_KEY'] = getenv('MY_SECRET_KEY')
 
 # import the ./application/routes.py file
 db=SQLAlchemy(app)
-#login_manager = LoginManager(app)
-#login_manager.login_view = 'login'
 
 from application import routes
